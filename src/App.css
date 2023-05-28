@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  height: calc(100vh - 40px);
+  background: #282828;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.side-div-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.side-div {
+  width: 74px;
+  height: 74px;
+  background: #ae4747;
+  border-radius: 12px;
+}
+.center-div {
+  align-self: center;
+  height: 372px;
+  width: 372px;
+  position: relative;
+}
+
+.center-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  width: 59px;
+  height: 59px;
+  background: #4db5f0;
+
+}
+.top-left {
+  top: 0;
+  left: 0;
+}
+
+.top-right {
+  top: 0;
+  right: 0;
+}
+
+.bottom-left {
+  bottom: 0;
+  left: 0;
+}
+
+.bottom-right {
+  bottom: 0;
+  right: 0;
+}
+
+.circle-1 {
+  z-index: 4;
+  width: 74px;
+  height: 74px;
+  background: #c628fd;
+}
+
+.circle-2 {
+  z-index: 3;
+  width: 274px;
+  height: 274px;
+  background: #d9d9d9;
+}
+
+.circle-3 {
+  z-index: 2;
+  width: 336px;
+  height: 336px;
+  background: #9a98e9;
+}
+.circle-4 {
+  z-index: 1;
+  position: absolute;
+  width: 372px;
+  height: 372px;
+  background: #fe8f8f;
+}
